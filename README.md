@@ -12,10 +12,10 @@ A web application that takes a user's birthday and calculates the day of the wee
 4. Click the submit button to see what my Akan name would be
 
 ### Technologies Used
-*HTML
-*CSS
-*Bootstrap
-*JavaScript
+* HTML
+* CSS
+* Bootstrap
+* JavaScript
 ### Contact Information
 florencekotohoyoh@gmail.com
 ### License
