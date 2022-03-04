@@ -17,7 +17,7 @@ A web application that takes a user's birthday and calculates the day of the wee
 *Bootstrap
 *JavaScript
 ### Contact Information
-
+florencekotohoyoh@gmail.com
 ### License
 [MIT](https://choosealicense/licenses/mit)
 Copyright (c) 2022
