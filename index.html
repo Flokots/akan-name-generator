@@ -6,6 +6,8 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Akan Name Generator</title>
+  <link href="https://fonts.googleapis.com/css2?family=Abhaya+Libre&family=Playball&family=Tangerine&display=swap"
+    rel="stylesheet">
   <link href="/css/bootstrap.css" rel="stylesheet" type="text/css">
 </head>
 
@@ -78,16 +80,30 @@
         </a>
       </div>
       <div class="col-md-6">
-        <div class="btn btn-secondary">
-          <a>Generate Akan Name</a>
-        </div>
-        <div class="date">
-          <label for="birthday">Please enter Birthday:</label>
-          <input type="date">
-          <input type="radio" name="Gender" value="Male">
-          <label for="male">Male</label><br>
-          <input type="radio" name="Gender" value="Female">
-          <label for="female">Female</label><br>
+        <div>
+          <h3>Please Enter your Birthday</h3>
+          <div>
+            <form action="submit">
+              <div>
+                <label for="month">Day:
+                  <input type="number" id="year" name="year" placeholder="DD" min="1" max="31" required>
+                </label>
+                <label for="month">Month:
+                  <input type="number" id="month" name="month" placeholder="MM" min="1" max="31" required>
+                </label>
+                <label for="year">Year:
+                  <input type="number" id="year" name="year" placeholder="YY" min="1" max="2022" required>
+                </label>
+              </div>
+              <div>
+                <input type="radio" name="Gender" value="Male" id="male" required>
+                <label for="male">Male</label><br>
+                <input type="radio" name="Gender" value="Female" id="female" required>
+                <label for="female">Female</label><br>
+              </div>
+              <input type="submit" class="btn btn-primary" value="Generate Akan Name">
+            </form>
+          </div>
         </div>
       </div>
     </div>
