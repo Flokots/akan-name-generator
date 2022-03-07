@@ -83,16 +83,10 @@
         <div>
           <h3>Please Enter your Birthday</h3>
           <div>
-            <form action="submit">
+            <form onsubmit="getAkanName()">
               <div>
-                <label for="month">Day:
-                  <input type="number" id="year" name="year" placeholder="DD" min="1" max="31" required>
-                </label>
-                <label for="month">Month:
-                  <input type="number" id="month" name="month" placeholder="MM" min="1" max="31" required>
-                </label>
-                <label for="year">Year:
-                  <input type="number" id="year" name="year" placeholder="YY" min="1" max="2022" required>
+                <label for="date">Date:
+                  <input type="date" id="date" name="date" required>
                 </label>
               </div>
               <div>
@@ -105,6 +99,7 @@
             </form>
           </div>
         </div>
+        <p id="demo"></p>
       </div>
     </div>
   </div>
