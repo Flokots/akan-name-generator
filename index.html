@@ -83,7 +83,7 @@
         <div>
           <h3>Please Enter your Birthday</h3>
           <div>
-            <form onsubmit="getAkanName()">
+            <form id="form">
               <div>
                 <label for="date">Date:
                   <input type="date" id="date" name="date" required>
@@ -95,11 +95,14 @@
                 <input type="radio" name="gender" value="female" id="female" required>
                 <label for="female">Female</label><br>
               </div>
-              <input type="submit" class="btn btn-primary" value="Generate Akan Name">
+              <input type="submit" class="btn btn-primary" value="Generate Akan Name" onclick="getAkanName();">
+              <!-- <input type="reset" class="btn btn-warning" value="Clear" onclick="clearForm();"> -->
             </form>
           </div>
         </div>
-        <p id="demo"></p>
+        <div>
+          <p id="response"></p>
+        </div>
       </div>
     </div>
   </div>
