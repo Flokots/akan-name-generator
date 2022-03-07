@@ -10,6 +10,19 @@ h2 {
   color: white;
   text-align: center;
 }
+h3 {
+  text-align: center;
+  margin-top: 0.2rem;
+}
+label {
+  align-items: center;
+  font-size: 1.125rem;
+  margin-bottom: auto;
+}
+thead {
+  background-color: #0a2f35;
+  color: white;
+}
 .card {
   background-color: #ffca7a;
   color: #0a2f35;
@@ -40,11 +53,10 @@ h2 {
 .lightest {
   background-color: #ffca7a;
 }
-thead {
-  background-color: #0a2f35;
-  color: white;
+img {
+  float: right;
+  height: 70%;
 }
-
 .card-body form {
   justify-content: center;
   align-items: center;
@@ -61,38 +73,28 @@ thead {
   padding: 2.5rem;
   border-radius: 0.25rem;
 }
-h3 {
-  text-align: center;
-  margin-top: 0.2rem;
-}
-label{
-  align-items: center;
-  font-size: 1.125rem;
-  margin-bottom: auto;
-}
+
 .form-group {
   margin: 0 auto 1.25rem auto;
   padding: 0.25rem;
 }
-.form-control{
+.form-control {
   display: block;
   width: 100%;
   height: 2.375rem;
-  color:#0a2f35;
+  color: #0a2f35;
   background-color: #f56038;
   transition: width 0.2s ease-in-out, box-shadow 0.25s ease-in-out;
-}
-img {
-  float:right;
-  height: 70%;
 }
 .response {
   background-color: coral;
   height: 100px;
-  border-color:#0a2f35;
+  border-color: #0a2f35;
   margin-top: 40px;
   padding: 16px;
 }
 .response p {
   font-weight: bold;
+  text-align: center;
+  font-size: 1.5rem;
 }
