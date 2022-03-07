@@ -26,9 +26,11 @@ var getAkanName = function () {
   });
 }
 
-// function clearForm() {
-//   document.getElementById("form").reset();
-// }
+function clearForm() {
+  document.getElementById("form").reset();
+  window.location.reload();
+
+}
 
 
 // document.getElementById("form").reset();
