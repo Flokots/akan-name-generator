@@ -2,7 +2,9 @@
 A web application that takes a user's birthday and calculates the day of the week they were born and then depending on their gender outputs their Akan Name. 
 ## Author
 [Florence Kotohoyoh](https://github.com/Flokots)
-## Setup Instructions
+### Demo
+Link to live site: https://Flokots.github.io/akan-name-generator
+### Setup Instructions
 1. Fork this repository
 2. Clone the repository in your local computer
 ### User Stories (Behavior Driven Development)
