@@ -1,0 +1,29 @@
+body {
+  background-color: #12492f;
+  margin: 20px;
+  padding: 10px;
+}
+h2{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-variant: small-caps;
+  font-weight: bold;
+  color: white;
+}
+.card {
+  background-color:#ffca7a;
+  color: #0a2f35;
+}
+.card-header {
+  display: flex;
+  justify-content: center;
+}
+.button {
+  background-color: #0a2f35;
+  color: #f7a325;
+}
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+}
