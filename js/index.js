@@ -8,7 +8,7 @@ var getAkanName = function () {
   var month = birthDate.getMonth();
   var gender = document.getElementsByName("gender");
 
-  if (date === "" || day > 31 || day < 0 || month > 12 || day < 0) {
+  if (date === "" || day > 31 || day === 0 || day < 0 || month > 12 || month < 0 || month === 0) {
     document.getElementById("response").innerHTML = "Please enter a valid date";
   } else {
     for (var i = 0; i < gender.length; i++) {
