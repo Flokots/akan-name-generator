@@ -34,5 +34,4 @@ var getAkanName = function () {
 function clearForm() {
   document.getElementById("form").reset();
   window.location.reload();
-
 }
