@@ -11,8 +11,8 @@
 </head>
 
 <body>
-  <div class="container px-4">
-    <div class="row gx-5">
+  <div class="container">
+    <div class="row">
       <div class="col-md-6">
         <h2>Akan Day Names</h2>
         <table class="table table-striped">
@@ -24,37 +24,37 @@
             </tr>
           </thead>
           <tbody>
-            <tr>
+            <tr class="light">
               <th>Sunday</th>
               <th>Kwasi</th>
               <th>Akosua</th>
             </tr>
-            <tr>
+            <tr class="lighter">
               <th>Monday</th>
               <th>Kwadwo</th>
               <th>Adwoa</th>
             </tr>
-            <tr>
+            <tr class="lightest">
               <th>Tuesday</th>
               <th>Kwabena</th>
               <th>Abenaa</th>
             </tr>
-            <tr>
+            <tr class="light">
               <th>Wednesday</th>
               <th>Kwaku</th>
               <th>Akua</th>
             </tr>
-            <tr>
+            <tr class="lighter">
               <th>Thursday</th>
               <th>Yaw</th>
               <th>Yaa</th>
             </tr>
-            <tr>
+            <tr class="lightest">
               <th>Friday</th>
               <th>Kofi</th>
               <th>Afua</th>
             </tr>
-            <tr>
+            <tr class="light">
               <th>Saturday</th>
               <th>Kwame</th>
               <th>Ama</th>
@@ -63,20 +63,21 @@
         </table>
       </div>
       <div class="col-md-6">
-        <div>
-          <h3>Please Enter your Birthday</h3>
-          <div>
+        <div class="card gen-card">
+          <h2 class="card-header">Akan Name Generator</h2>
+          <div class="card-body">
             <form id="form">
               <div>
-                <label for="date">Date:
+                <h3>Enter Your Birthday</h3>
+                <label for="date" class="form-check-label">Date:
                   <input type="date" id="date" name="date" required>
                 </label>
               </div>
               <div>
-                <input type="radio" name="gender" value="male" id="male" required>
-                <label for="male">Male</label><br>
-                <input type="radio" name="gender" value="female" id="female" required>
-                <label for="female">Female</label><br>
+                <input class="form-check-input" type="radio" name="gender" value="male" id="male" required>
+                <label class="form-check-label" for="male">Male</label><br>
+                <input class="form-check-input" type="radio" name="gender" value="female" id="female" required>
+                <label class="form-check-label" for="female">Female</label><br>
               </div>
               <input type="submit" class="btn btn-primary" value="Generate Akan Name" onclick="getAkanName();">
               <input type="reset" class="btn btn-danger" value="reset" onclick="clearForm();">

@@ -8,6 +8,7 @@ h2{
   font-variant: small-caps;
   font-weight: bold;
   color: white;
+  text-align: center;
 }
 .card {
   background-color:#ffca7a;
@@ -16,14 +17,50 @@ h2{
 .card-header {
   display: flex;
   justify-content: center;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-weight: bolder;
 }
 .button {
-  background-color: #0a2f35;
-  color: #f7a325;
+  background-color:  #f7a325;
+  color: #0a2f35;
 }
 .center {
   display: flex;
   justify-content: center;
   align-items: center;
   height: 200px;
+}
+.light {
+  background-color: #f7a325;
+}
+.lighter {
+  background-color: #f56038;
+}
+.lightest {
+  background-color: #ffca7a;
+}
+thead {
+background-color: #0a2f35;
+color: white;
+}
+
+.card-body form{
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  margin: 20px;
+}
+.gen-card {
+  height: 400px;
+  margin-top: 40px;
+  margin-left: 40px;
+  background-color: #0a2f35;
+  color: white;
+}
+.gen-card h2 {
+  color: #f56038;
+}
+h3 {
+  text-align: center;
+
 }
